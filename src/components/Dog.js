@@ -2,7 +2,7 @@ import { dogApi } from './services/Constants';
 import { useState, useEffect } from 'react';
 
 
-function Dog() {
+function Dog(props) {
   const [dog, setDoggies] = useState('')
 
   async function handleClick() {
@@ -11,7 +11,7 @@ function Dog() {
   }
 
   useEffect(() => {
-   handleClick()
+    handleClick()
   }, [])
 
 
@@ -19,6 +19,8 @@ function Dog() {
     <div>
       <h1>Random Dogs</h1>
       <button onClick={() => handleClick()}>Click For A Pic Of A Dog At Random</button>
+      {dog}
+
     </div>
   )
 }

@@ -9,7 +9,7 @@ function App() {
       <Header />
       <main>
         <Container />
-        <img src="https://www.pexels.com/photo/mother-playing-with-her-children-4017417/" />
+        <img src="https://www.pexels.com/search/dog%20and%20cat/" />
         <Footer />
       </main>
 

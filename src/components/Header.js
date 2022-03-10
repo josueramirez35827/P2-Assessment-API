@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <Header>
+    <header>
       <h5>Josue's P2-Assessment:</h5>
       <h2>Cat and Dog API</h2>
       <ul>
@@ -16,6 +16,6 @@ export default function Header() {
           <li>Dog API</li>
         </NavLink>
       </ul>
-    </Header>
+    </header>
   )
 }
